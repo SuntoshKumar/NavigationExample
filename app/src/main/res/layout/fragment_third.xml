@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ThirdFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment Three"
+            android:textSize="48sp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment One"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            app:icon="@drawable/baseline_arrow_forward_ios_24"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>
